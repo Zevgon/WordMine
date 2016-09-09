@@ -1,5 +1,7 @@
 # WordMine
 
+[wordmine](http://www.wordmine.xyz)
+
 WordMine is a web application inspired by Duolingo. It uses a Postgres database and a React frontend, implementing Redux for controlling data flow.
 
 <h2> Security </h2>
