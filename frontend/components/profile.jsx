@@ -55,8 +55,8 @@ class Profile extends React.Component {
           <div className='instruction profile'>You are currently studying the following languages. To continue your progress, click on the name of the language you'd like to study.</div>
           <ul className='language-list'>
             {treeLinks}
-            <Link className='add-language' to='/chooseLanguage'>Study a New Language</Link>
           </ul>
+          <Link className='add-language' to='/chooseLanguage'>Study a New Language</Link>
         </div>
       );
     }

@@ -269,12 +269,14 @@ p {
 }
 
 .tree-link {
-  font-family: roboto;
-  color: orange;
-  text-align: center;
-  text-decoration: none;
-  font-size: 30px;
-  margin: 0 auto;
+    padding-left: 20px;
+    border-left: 3px solid #ccc;
+    color: rgba(136, 136, 136, 1);
+    font-family: roboto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 auto;
 }
 
 .profile {
@@ -389,11 +391,11 @@ button:focus {
 }
 
 .get-started {
-    margin-top: 100px;
-    background-color: #e59400;
+    background-color: rgba(214, 187, 83, 1);
     border-radius: 25px;
     width: 500px;
     font-size: 18px;
+    margin: 20px auto;
 }
 
 .get-started:hover {
@@ -426,9 +428,9 @@ button:focus {
   background-color: #ccc
 }
 
-.language-list > .add-language {
+.add-language {
     padding: 14px 10px 5px 10px;
-    background-color: #84BE6A;
+    background-color: #3171b3;
     margin: 40px auto 0px;
     text-decoration: none;
     font-family: roboto;
@@ -440,6 +442,10 @@ button:focus {
     height: 30px;
 }
 
+.add-language:hover {
+  opacity: .7;
+}
+
 .language-list {
   padding: 0px;
   display: flex;
@@ -447,7 +453,19 @@ button:focus {
 }
 
 .language-list > * {
-  margin: 10px;
+    border-bottom: 1px solid #eee;
+    margin: 0px 100px;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.language-list > * > a:hover {
+  border-left: 3px solid #3171b3;
+  color: black;
+}
+
+.language-list li:first-child {
+  border-top: 1px solid #eee;
 }
 
 .language-choices {
@@ -525,6 +543,7 @@ ul {
 }
 
 .sub-title {
+    margin: 0 auto;
     width: 400px;
     text-align: center;
     color: white;
@@ -671,11 +690,11 @@ ul {
     background-size: 101% 101%;
     background-position-x: -2px;
     background-position-y: -2px;
-    border-radius: 1000px;
     left: 0;
-    top: 100px;
+    top: 63px;
     width: 100%;
-    height: 75vh;
+    height: 100vh;
+    opacity: .5;
     z-index: -1;
 }
 
@@ -700,13 +719,13 @@ ul {
 }
 
 .splash-titles {
-  border-radius: 7px;
-  background-color: rgba(0, 0, 0, .6);
-  /* height: 200px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 20px 0px 30px;
+    border-radius: 7px;
+    background-color: rgba(18,80,140,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0px 30px;
+    width: 800px;
 }
 
 .beer {
@@ -829,7 +848,7 @@ ul {
 }
 
 .instruction.profile {
-    color: #0c3fa4;
+    color: black;
     margin: 20px auto 0px;
     padding-bottom: 0px;
     width: 100%;

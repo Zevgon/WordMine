@@ -9,8 +9,8 @@ const getStarted = () => (
           WordMine
         </div>
         <i className='sub-title'>Learn the most common words in the language of your choice</i>
+        <button onClick={() => hashHistory.push('/auth')} className="get-started">Start Learning</button>
       </div>
-      <button onClick={() => hashHistory.push('/auth')} className="get-started">Start Learning</button>
       <div className="world-map" />
     </div>
     <ul className='flags'>
