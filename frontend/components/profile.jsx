@@ -32,10 +32,13 @@ class Profile extends React.Component {
 
   render () {
     let treeLinks = this.treeLinks();
-    let renderThis = () => (
-      <div>Test</div>
-    );
     let username = this.props.currentUser ? this.props.currentUser.username : '';
+    let addLanguage;
+    if (treeLinks && treeLinks.length === 4) {
+      addLanguage = (<div className='instruction profile'>You are studying all of the available languages!</div>);
+    } else {
+      addLanguage = (<Link className='add-language' to='/chooseLanguage'>Study a New Language</Link>);
+    }
     if (!treeLinks.length && this.props.currentUser) {
       return (
         <div className='profile content-box'>
@@ -56,7 +59,7 @@ class Profile extends React.Component {
           <ul className='language-list'>
             {treeLinks}
           </ul>
-          <Link className='add-language' to='/chooseLanguage'>Study a New Language</Link>
+          {addLanguage}
         </div>
       );
     }
