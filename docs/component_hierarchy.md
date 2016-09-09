@@ -1,3 +1,5 @@
+<h3> SplashPage </h3>
+
 <h3> AuthFormContainer </h3>
 
   * AuthForm
@@ -5,7 +7,6 @@
 <h3> ChooseLanguage </h3>
 
   * LanguageChoice
-  * NextButton
 
 <h3> NodeContainer </h3>
 
@@ -18,18 +19,14 @@
 <h3> ProfileContainer </h3>
 
   * LanguageIndex
-    * LanguagePercentage
-    * StudyButton
 
 <h3> TreeContainer </h3>
 
-  * LanguageHeader
-  * Stats
+  * Language Header
   * Nodes
-    * Node
 
-<h3> NavBar </h3>
-
+<h3> NavContainer </h3>
+  * Nav
 
 
 # Routes

@@ -8,12 +8,15 @@ Users' information is kept extremely secure. WordMine uses BCrypt to hash users'
 
 <h3>Database</h3>
 The seeds file creates data dynamically, which makes it easy to add content to the site. When the seeds file runs, it creates trees based on the names of the folders in `'lib/assets'`:
+<br /><br />
 
-```
+```ruby
 Dir.entries('./lib/assets').reject{|f| f =~ /^\./}.each do |tree_name|
   Tree.create!({name: tree_name})
 end
-```
+ ```
+
+<br /><br />
 
 Then it creates `WordList`s based on the filenames within those folders, and creates `Word`s based on the content of those files:
 
@@ -58,8 +61,16 @@ The trees table has a `name` and an `id` column. After a user signs up, the `Cho
 The nodes table has columns for `completed` and `unlocked`, among others. These attributes are used to determine the background color of the nodes when they get rendered on the tree page and whether or not they can be clicked on. When a user clicks on a node, it triggers a request to the `NodesController`'s show method, which renders JSON of that node's words. The WordIndex component displays the words for the user to study. When the user clicks the ready button and goes to the quiz (the `Node` component), the node page's `componentDidMount` method also sends a request to the `NodesController`'s show method, but displays the words in the format of a quiz.
 
 
-<h3> Routers </h3>
-WordMine uses `'react-router'` for routing. The root route uses `Provider` from `'react-redux'` to pass the store to its children. It renders the AppRouterContainer, which
+<h3> Screenshots </h3>
+
+<h4> Tree Page </h4>
+
+![tree page](./docs/images/tree_page.png)
+
+<h4> Node Page </h4>
+
+![node page](./docs/images/node_page.png)
+
 
 <h2> Next Steps </h2>
 Some features that I plan on adding to WordMine:

@@ -9,13 +9,13 @@
   * Session
     * `POST /api/sessions`
     * `GET /api/sessions`
-    * `DESTROY /api/sessions`
+    * `DELETE /api/sessions`
   * Trees
     * `GET /api/trees`
-    * `GET /api/users/:userId/trees`
-    * `GET /api/users/:userId/trees/:treeId`
+    * `GET /api/trees/:treeId`
+    * `GET /api/trees/:treeId`
+    * `GET /api/choices`
+    * `POST /api/trees_users`
   * Nodes
-    * `GET /api/trees/:treeId/nodes`
-      accepts node[tree_id] as a param
-    * `GET /api/trees/:treeId/nodes/:nodeId`
-      accepts node[tree_id] and node[id] as params
+    * `GET /api/nodes/:nodeId`
+    * `PATCH /api/nodes/:nodeId`
