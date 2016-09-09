@@ -1,0 +1,15 @@
+encore: again
+appeler: to call
+homme: man
+femme: woman
+table: table
+merci: thanks
+ordinateur: computer
+excuser: excuse
+plus: more
+nous: we
+parler: to speak
+voir: to see
+avec: with
+quoi: what
+oui: yes

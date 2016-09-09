@@ -1,0 +1,15 @@
+mehr: more
+immer: always
+warum: why
+etwas: something
+bitte: please
+wieder: again
+machen: to make
+vor: before
+gehen: to go
+sehr: very
+sehen: to see
+wer: who
+wirklich: real
+sagen: to say
+danke: thanks

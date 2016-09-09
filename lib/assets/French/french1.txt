@@ -1,0 +1,15 @@
+le: the
+il: he
+elle: she
+ils: they
+être: to be
+avoir: to have
+je: I
+de: of
+tu: you
+vous: you
+et: and
+un: a
+qui: who
+aller: to go
+faire: to do

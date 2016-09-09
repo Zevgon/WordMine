@@ -1,0 +1,15 @@
+gente: people
+parecer: to seem
+padre: father
+madre: mother
+dinero: money
+hecho: done
+mismo: same
+trabajo: work
+claro: clear
+mañana: morning
+hablar: to speak
+después: after
+desde: from
+mundo: world
+acuerdo: agreement

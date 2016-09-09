@@ -1,0 +1,15 @@
+sí: yes
+yo: I
+aquí: here
+ahora: now
+algo: something
+nada: nothing
+nosotros: we
+cuando: when
+él: he
+ella: she
+gracias: thanks
+usted: you
+dónde: where
+nunca: never
+mucho: much

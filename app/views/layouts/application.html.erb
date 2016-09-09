@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>WordMine</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://use.fontawesome.com/c7d0cce0dc.js"></script>
+  </head>
+
+  <body>
+
+    <script type="text/javascript">
+      <% if logged_in? %>
+        window.currentUser = <%= render("api/users/user.json.jbuilder",
+        user: current_user).html_safe %>
+      <% end %>
+    </script>
+
+    <%= yield %>
+  </body>
+</html>

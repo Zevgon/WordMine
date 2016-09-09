@@ -1,0 +1,15 @@
+zu: to
+für: for
+nein: no
+noch: still
+nur: only
+können: can
+schon: already
+aus: out
+um: around
+aber: but
+gut: good
+jetzt: now
+nach: after
+werden: to become
+wo: where

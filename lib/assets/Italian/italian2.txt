@@ -1,0 +1,15 @@
+questo: this
+qui: here
+bene: well
+tu: you
+solo: only
+sì: yes
+tutto: everything
+più: more
+quando: when
+perché: because
+essere: to be
+o: or
+mai: never
+così: like that
+chi: who

@@ -1,0 +1,15 @@
+tout: all
+que: what
+ce: this
+mes: my
+pour: for
+dire: to say
+pouvoir: can
+vouloir: to want
+mais: but
+nous: we
+dans: in
+savoir: to know
+ou: or
+bien: well
+non: no

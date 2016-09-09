@@ -1,0 +1,15 @@
+estar: to be
+tener: to have
+todo: all
+pero: but
+más: more
+hacer: to do
+o: or
+poder: can
+decir: to say
+este: this
+ir: to go
+otro: other
+si: if
+ya: already
+verdad: truth

@@ -1,0 +1,15 @@
+el: the
+la: the
+de: of
+que: that
+y: and
+a: to
+en: in
+un: a
+ser: to be
+no: no
+haber: to have
+por: for
+con: with
+para: for
+como: like

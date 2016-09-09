@@ -1,0 +1,15 @@
+jamais: never
+attendre: to wait
+trouver: to find
+laisser: to leave
+petit: small
+même: same
+autre: other
+arriver: to arrive
+donner: to give
+regarder: to watch
+partir: to leave
+toujour: always
+temps: time
+maintenant: now
+vie: life

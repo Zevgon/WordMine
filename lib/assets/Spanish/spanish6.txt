@@ -1,0 +1,15 @@
+hijo: son
+amigo: friend
+lugar: place
+gustar: to like
+hoy: today
+nuevo: new
+menos: less
+tipo: type
+nombre: name
+creer: to believe
+amor: love
+cada: each
+problema: problem
+razón: reason
+quizá: maybe

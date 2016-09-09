@@ -1,0 +1,15 @@
+non: not
+e: and
+che: that
+la: the
+è: is
+il: the
+un: a
+a: to
+per: for
+in: in
+ma: but
+cosa: thing
+con: with
+come: how
+io: I

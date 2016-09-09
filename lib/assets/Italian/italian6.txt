@@ -1,0 +1,15 @@
+grande: big
+tra: between
+prego: you're welcome
+quindi: then
+guardare: to watch
+favore: favor
+parlare: to speak
+gente: people
+soldi: money
+madre: mother
+padre: father
+nuovo: new
+mondo: world
+successo: success
+potere: can

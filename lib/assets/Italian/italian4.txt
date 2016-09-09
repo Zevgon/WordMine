@@ -1,0 +1,15 @@
+anno: year
+uomo: man
+giorno: day
+casa: house
+mano: hand
+occhio: eye
+ora: hour
+paese: country
+parola: word
+punto: point
+lavoro: work
+città: city
+guerra: war
+strada: street
+figlio: son

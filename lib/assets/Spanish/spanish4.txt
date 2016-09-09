@@ -1,0 +1,15 @@
+tiempo: time
+entonces: then
+mejor: best
+hombre: man
+mujer: woman
+también: also
+vida: life
+sin: without
+siempre: always
+año: year
+día: day
+cosa: thing
+noche: night
+alguien: someone
+antes: before

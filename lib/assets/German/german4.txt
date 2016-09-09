@@ -1,0 +1,15 @@
+andere: other
+über: above
+einfach: easy
+müssen: must
+nie: never
+leben: to live
+viel: a lot
+Zeit: time
+wissen: to know
+zurück: back
+heute: today
+machen: to make
+wollen: to want
+Frau: woman
+Mann: man

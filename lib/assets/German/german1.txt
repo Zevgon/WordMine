@@ -1,0 +1,15 @@
+der: the
+du: you
+ich: I
+es: it
+was: what
+wir: we
+ein: a
+er: he
+sie: she
+mit: with
+ja: yes
+wie: how
+auf: on
+hier: here
+haben: to have

@@ -1,0 +1,1017 @@
+body {
+  /*background-color: #5F9EA0;*/
+  background-color: #f8f8f8;
+  margin: 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header-link{
+  margin: 0px 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: cursive;
+}
+
+
+.content-box {
+  box-shadow: 11px 10px 20px #888888;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+#slide {
+  transition: 1s;
+  left: 0;
+  left: 100%;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 0.5s forwards;
+}
+
+@-webkit-keyframes slide {
+  100% { left: 0; }
+}
+
+@keyframes slide {
+  100% { left: 0; }
+}
+
+button {
+  color: white;
+  padding: 15px 40px;
+  margin: 10px 40px;
+  border-radius:  7px;
+  border: none;
+  background-color: #0c3fa4;
+  font-size: 80%;
+
+}
+
+button:hover{
+  cursor: pointer;
+  opacity: .7;
+}
+
+form {
+  color: #0c3fa4;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin:  4% 5%;
+
+}
+
+p {
+  font-family: roboto;
+}
+
+.sign-up{
+  background-color: orange;
+}
+
+.sign-in{
+  background-color: #2471A3;
+}
+
+i {
+  font-family: Roboto;
+  font-size: 150%;
+  color: #0c3fa4;
+  padding: inherit;
+  text-align: center;
+}
+
+.auth-buttons{
+  width: 80%;
+  padding: inherit;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-bar li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  border-radius: 10px;
+  width: 6.66%;
+  height: 100%;
+  background-color: green;
+}
+
+.node button {
+  background-color: #3171b3;
+}
+
+.guest-button {
+  margin: 0 auto 40px;
+}
+
+form .node-buttons li button {
+  background-color: red;
+  background-color: red;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 0px;
+}
+
+form .errors {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: transparent;
+  color: red;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 7px;
+  border: 1px solid gray;
+  height: 30px;
+  margin: 10px 40px;
+  font-size: 15px;
+}
+
+.progress-header {
+  margin-top: 25px;
+}
+
+.progress-bar {
+  padding: 0;
+  border: 1px solid gray;
+  height: 20px;
+  width: 510px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+
+#guess-field {
+    width: 250px;
+    height: 20px;
+    margin: 10px auto;
+}
+
+p {
+  margin: 0 auto;
+  font-family: roboto;
+  font-size: 24px;
+  color: orange;
+}
+
+.node-page-buttons {
+  border-bottom-right-radius: 7px;
+  background-color: #ccc;
+  border-top: 1px solid gray;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom-left-radius: 7px;
+}
+
+.progress-bar .first-progress-piece {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: none;
+}
+
+.progress-bar .first-and-only-progress-piece {
+  border: none;
+}
+
+.progress-bar .middle-progress-piece {
+  border-radius: 0px;
+  border: none;
+}
+
+.progress-bar .last-progress-piece {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;
+}
+
+.tree {
+    position: relative;
+    padding: 30px 10px;
+    max-width: 700px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.language-header {
+  font-size: 38px;
+  text-align: center;
+  color: #E3170D;
+  opacity: .7;
+  font-family: roboto;
+}
+
+.node-button {
+  margin: 15px 17px;
+  font-size: 28px;
+  background-color: #668014;
+  opacity: .7;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  padding: 0px;
+}
+
+.node-buttons {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    padding: 0px;
+}
+
+.header-nav {
+  /*background-color: #0c3fa4;*/
+  margin-bottom: 40px;
+  display: flex;
+  background-color: #3171b3;
+  justify-content: space-between;
+  padding: 8px 10%;
+}
+
+.header-sign {
+    font-family: roboto;
+    text-decoration: none;
+    color: white;
+    opacity: .7;
+    margin: auto 0;
+}
+
+.profile-header {
+  padding-bottom: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.tree-link {
+  font-family: roboto;
+  color: orange;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.profile {
+  margin: 0 auto;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 20px 10px 50px 10px;
+}
+
+.home {
+  margin-left: 30px;
+  align-self: center;
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-link {
+  margin: auto;
+}
+
+.link-li {
+  text-align: center;
+}
+
+.sign-in-as-guest {
+  background-color: #2471A3;
+}
+
+.fa-times.appear {
+  color: red;
+}
+
+.fa-times {
+  color: transparent;;
+}
+
+.fa.fa-times {
+  font-size: 36px;
+}
+
+.fa.fa-times.appear {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.node {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 7px;
+  height: 550px;
+  margin: 0 auto;
+}
+
+.icon-box {
+  padding-top: 10px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+
+.auth-field-box {
+  display: flex;
+  align-items: center;
+}
+
+.auth-field {
+  padding-left: 0;
+  width: 100%;
+  margin-left: 0px;
+  border-left: none;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.fa.fa-user {
+  background-color: white;
+  padding: 12px 13px;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  color: gray;
+  border-left: 1px solid;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.fa.fa-lock {
+  background-color: white;
+  padding: 12px 13px;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  color: gray;
+  border-left: 1px solid;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+input:focus{
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.get-started {
+    margin-top: 100px;
+    background-color: #e59400;
+    border-radius: 25px;
+    width: 500px;
+    font-size: 18px;
+}
+
+.get-started:hover {
+  background-color: green;
+  opacity: 1;
+}
+
+.get-started-div {
+    height: 500px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.splash-text {
+  margin: 8px;
+  font-size: 28px;
+  color: #3171b3;
+  padding: inherit;
+}
+
+.foreign-word {
+  font-size: 38px;
+  color: #DD7500;
+}
+
+.node.back-button {
+  background-color: #ccc
+}
+
+.language-list > .add-language {
+    padding: 14px 10px 5px 10px;
+    background-color: #84BE6A;
+    margin: 40px auto 0px;
+    text-decoration: none;
+    font-family: roboto;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border-radius: 25px;
+    width: 300px;
+    height: 30px;
+}
+
+.language-list {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.language-list > * {
+  margin: 10px;
+}
+
+.language-choices {
+    padding: 0;
+    align-items: center;
+    margin-top: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.node-page-buttons > .back-button {
+  border: 2px solid gray;
+  background-color: transparent;
+  color: #eee;
+}
+
+.choice button {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: blue;
+  margin: 0;
+  font-size: 18px;
+}
+
+.choice {
+  width: 250px;
+  margin: 30px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.content-box.choices {
+  padding: 20px 20px 40px 20px;
+  flex-direction: column;
+}
+
+.choices-back-button {
+  margin: 0 auto;
+}
+
+.flags {
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 8px 50px;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3171b3;
+    position: fixed;
+    bottom: 0px;
+}
+
+.except-flags {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family: cursive;
+}
+
+.sub-title {
+    width: 400px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.flags li {
+    width: 90px;
+    height: 50px;
+}
+
+.german {
+  background: url(https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png);
+  background-size: 100% 100%;
+}
+
+.italian {
+  background: url(http://www.crwflags.com/fotw/images/i/it.gif);
+  background-size: 100% 100%;
+}
+
+.french {
+  background: url(http://www.flags.net/images/largeflags/FRAN0001.GIF);
+  background-size: 100% 100%;
+}
+
+.spanish {
+  background: url(http://www.crwflags.com/fotw/images/e/es-1936.gif);
+  background-size: 100% 100%;
+}
+
+.choice.french {
+  background: url(http://www.flags.net/images/largeflags/FRAN0001.GIF);
+  background-size: 100% 100%;
+}
+
+.choice.italian {
+  background: url(http://www.crwflags.com/fotw/images/i/it.gif);
+  background-size: 100% 100%;
+}
+
+.choice.italian button {
+  font-family: roboto;
+  color: blue;
+}
+
+.choice.german {
+  background: url(https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png);
+  background-size: 100% 100%;
+}
+
+.choice.german button {
+  color: white;
+}
+
+.choice.spanish {
+  background: url(http://www.crwflags.com/fotw/images/e/es-1936.gif);
+  background-size: 100% 100%;
+}
+
+.choice.spanish button {
+    padding-left: 70px;
+    padding-right: 0px;
+    color: red;
+}
+
+.word-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.word-list-item {
+  margin: 6px;
+  color: #3171b3;
+  font-size: 20px;
+}
+
+.word-list-header {
+
+}
+
+.word-list-box {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ready-button {
+  font-size: 18px;
+  background-color: orange;
+}
+
+.locked {
+    font-family: roboto;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+
+.completed {
+    background-color: orange;
+    opacity: .7;
+}
+
+.loading-div {
+  position: relative;
+}
+
+.loading {
+  z-index: 3;
+  width: 900px;
+  height: 500px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+.not-loading {
+  position: absolute;
+  z-index: -1;
+  height: 0px;
+  color: transparent;
+}
+
+.language-choices li {
+    margin: 40px auto;
+}
+
+.complete-button {
+  margin: 0 auto;
+}
+
+.world-map {
+    position: absolute;
+    background: url(http://wiki.alternatehistory.com/lib/exe/fetch.php?media=blank_map_directory:a.gif);
+    height: 300px;
+    width: 700px;
+    background-size: 101% 101%;
+    background-position-x: -2px;
+    background-position-y: -2px;
+    border-radius: 1000px;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    height: 75vh;
+    z-index: -1;
+}
+
+.eiffel-tower {
+    position: absolute;
+    background: url(http://orig05.deviantart.net/8e3a/f/2012/045/9/9/pink_eiffel_tower_png_by_nyaakemichan-d4pplrs.png);
+    width: 40px;
+    height: 50px;
+    background-size: 100% 100%;
+    margin-left: 299px;
+    margin-top: 24px;
+}
+
+.football {
+    position: absolute;
+    background: url("./football.png");
+    width: 50px;
+    height: 40px;
+    background-size: 100% 100%;
+    margin-left: 265px;
+    margin-top: 70px;
+}
+
+.splash-titles {
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, .6);
+  /* height: 200px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0px 30px;
+}
+
+.beer {
+    position: absolute;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Beer_mug_transparent.png/1024px-Beer_mug_transparent.png);
+    width: 35px;
+    height: 35px;
+    background-size: 100% 100%;
+    margin-left: 340px;
+    margin-top: 30px;
+}
+
+.leaning-tower {
+    position: absolute;
+    background: url(http://vignette3.wikia.nocookie.net/cityville/images/0/0c/Leaning_Tower.png/revision/latest?cb=20110524231542);
+    width: 35px;
+    height: 35px;
+    background-size: 100% 100%;
+    margin-left: 330px;
+    margin-top: 70px;
+}
+
+.footnote {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.choose {
+    font-size: 18px;
+    background-color: orange;
+    border-radius: 50px;
+}
+
+.instruction {
+    color: #0c3fa4;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0px 20px 30px;
+    font-size: 16px;
+    line-height: 1.9;
+    font-family: roboto;
+}
+.welcome {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.choose-your-language {
+  padding-bottom: 0px;
+}
+
+.legend {
+    border: 1px solid #ccc;
+    font-family: roboto;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 10px;
+}
+
+.color-box {
+  float: left;
+  width: 12px;
+  height: 12px;
+}
+
+.completed.color-box {
+  background-color: orange;
+}
+
+.unlocked.color-box {
+    background-color: #668014;
+    opacity: .7;
+}
+
+.locked.color-box {
+    background-color: gray;
+    opacity: .7;
+}
+
+.legend > * {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.show-instructions {
+  content: "hi";
+}
+
+.test-loading {
+  background-color: #f8f8f8;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.test-not-loading {
+  width: 0px;
+  height: 0px;
+}
+
+.empty#guess-field {
+    background-color: transparent;
+    border: none;
+}
+
+.empty#guess-field:hover {
+
+}
+
+.node-input {
+    margin-top: 27px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: roboto;
+}
+
+.instruction.profile {
+    color: #0c3fa4;
+    margin: 20px auto 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    padding-left: 0px;
+}
+
+.welcome-choose {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-choose div {
+  text-align: center;
+  margin-top: 20px;
+  font-family: roboto;
+  padding: 0px 20px;
+}
+
+.back-to-tree {
+  margin: 20px auto 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overlay-loader {
+	display: block;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	animation-name: rotateAnim;
+		-o-animation-name: rotateAnim;
+		-ms-animation-name: rotateAnim;
+		-webkit-animation-name: rotateAnim;
+		-moz-animation-name: rotateAnim;
+	animation-duration: 0.4s;
+		-o-animation-duration: 0.4s;
+		-ms-animation-duration: 0.4s;
+		-webkit-animation-duration: 0.4s;
+		-moz-animation-duration: 0.4s;
+	animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+		-o-animation-timing-function: linear;
+		-ms-animation-timing-function: linear;
+		-webkit-animation-timing-function: linear;
+		-moz-animation-timing-function: linear;
+}
+.loader div {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	border: 1px solid rgb(0,0,0);
+	position: absolute;
+	top: 2px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.loader div:nth-child(odd) {
+	border-top: none;
+	border-left: none;
+}
+.loader div:nth-child(even) {
+	border-bottom: none;
+	border-right: none;
+}
+.loader div:nth-child(2) {
+	border-width: 2px;
+	left: 0px;
+	top: -4px;
+	width: 12px;
+	height: 12px;
+}
+.loader div:nth-child(3) {
+	border-width: 2px;
+	left: -1px;
+	top: 3px;
+	width: 18px;
+	height: 18px;
+}
+.loader div:nth-child(4) {
+	border-width: 3px;
+	left: -1px;
+	top: -4px;
+	width: 23px;
+	height: 23px;
+}
+.loader div:nth-child(5) {
+	border-width: 3px;
+	left: -1px;
+	top: 4px;
+	width: 31px;
+	height: 31px;
+}
+.loader div:nth-child(6) {
+	border-width: 4px;
+	left: 0px;
+	top: -4px;
+	width: 39px;
+	height: 39px;
+}
+.loader div:nth-child(7) {
+	border-width: 4px;
+	left: 0px;
+	top: 6px;
+	width: 49px;
+	height: 49px;
+}
+
+
+@keyframes rotateAnim {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
+
+@-o-keyframes rotateAnim {
+	from {
+		-o-transform: rotate(360deg);
+	}
+	to {
+		-o-transform: rotate(0deg);
+	}
+}
+
+@-ms-keyframes rotateAnim {
+	from {
+		-ms-transform: rotate(360deg);
+	}
+	to {
+		-ms-transform: rotate(0deg);
+	}
+}
+
+@-webkit-keyframes rotateAnim {
+	from {
+		-webkit-transform: rotate(360deg);
+	}
+	to {
+		-webkit-transform: rotate(0deg);
+	}
+}
+
+@-moz-keyframes rotateAnim {
+	from {
+		-moz-transform: rotate(360deg);
+	}
+	to {
+		-moz-transform: rotate(0deg);
+	}
+}
