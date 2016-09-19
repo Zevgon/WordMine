@@ -1,4 +1,4 @@
-venir: to com
+venir: to come
 sur: on
 ici: here
 rien: nothing
